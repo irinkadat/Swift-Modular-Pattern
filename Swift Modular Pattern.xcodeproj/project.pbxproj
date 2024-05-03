@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		8C88DF7F2BE4A68500F5BC87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88DF7E2BE4A68500F5BC87 /* AppDelegate.swift */; };
 		8C88DF812BE4A68500F5BC87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88DF802BE4A68500F5BC87 /* SceneDelegate.swift */; };
-		8C88DF832BE4A68500F5BC87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88DF822BE4A68500F5BC87 /* ViewController.swift */; };
-		8C88DF862BE4A68500F5BC87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8C88DF852BE4A68500F5BC87 /* Base */; };
 		8C88DF882BE4A68600F5BC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C88DF872BE4A68600F5BC87 /* Assets.xcassets */; };
 		8C88DF8B2BE4A68600F5BC87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8C88DF8A2BE4A68600F5BC87 /* Base */; };
+		8C88DF9A2BE4A8D500F5BC87 /* CatFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88DF992BE4A8D500F5BC87 /* CatFactsViewController.swift */; };
+		8C88DF9C2BE4A90700F5BC87 /* CatFactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88DF9B2BE4A90700F5BC87 /* CatFactsViewModel.swift */; };
+		8C88DF9E2BE4A97600F5BC87 /* CatFactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C88DF9D2BE4A97600F5BC87 /* CatFactsCell.swift */; };
+		8C88DFA02BE4A9B800F5BC87 /* FiraGO-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C88DF9F2BE4A9B800F5BC87 /* FiraGO-Bold.ttf */; };
+		8C88DFA22BE4A9C000F5BC87 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C88DFA12BE4A9C000F5BC87 /* SpaceGrotesk-Bold.ttf */; };
+		8C88DFA42BE4A9C900F5BC87 /* FiraGO-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C88DFA32BE4A9C900F5BC87 /* FiraGO-Medium.ttf */; };
+		8C88DFA72BE4AAA700F5BC87 /* CatFactsNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 8C88DFA62BE4AAA700F5BC87 /* CatFactsNetworking */; };
+		8C88DFAA2BE4AAE800F5BC87 /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 8C88DFA92BE4AAE800F5BC87 /* TinyConstraints */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C88DF7B2BE4A68500F5BC87 /* Swift Modular Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Modular Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C88DF7E2BE4A68500F5BC87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C88DF802BE4A68500F5BC87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C88DF822BE4A68500F5BC87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C88DF852BE4A68500F5BC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C88DF872BE4A68600F5BC87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C88DF8A2BE4A68600F5BC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C88DF8C2BE4A68600F5BC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C88DF992BE4A8D500F5BC87 /* CatFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsViewController.swift; sourceTree = "<group>"; };
+		8C88DF9B2BE4A90700F5BC87 /* CatFactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsViewModel.swift; sourceTree = "<group>"; };
+		8C88DF9D2BE4A97600F5BC87 /* CatFactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsCell.swift; sourceTree = "<group>"; };
+		8C88DF9F2BE4A9B800F5BC87 /* FiraGO-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-Bold.ttf"; sourceTree = "<group>"; };
+		8C88DFA12BE4A9C000F5BC87 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		8C88DFA32BE4A9C900F5BC87 /* FiraGO-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraGO-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C88DFA72BE4AAA700F5BC87 /* CatFactsNetworking in Frameworks */,
+				8C88DFAA2BE4AAE800F5BC87 /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,75 @@
 		8C88DF7D2BE4A68500F5BC87 /* Swift Modular Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				8C88DF7E2BE4A68500F5BC87 /* AppDelegate.swift */,
+				8C88DF922BE4A7EE00F5BC87 /* App */,
+				8C88DF972BE4A84E00F5BC87 /* Resources */,
+				8C88DF952BE4A82100F5BC87 /* Scenes */,
+				8C88DF942BE4A81100F5BC87 /* CustomViews */,
+				8C88DF932BE4A7F600F5BC87 /* Supporting Files */,
+			);
+			path = "Swift Modular Pattern";
+			sourceTree = "<group>";
+		};
+		8C88DF922BE4A7EE00F5BC87 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				8C88DF802BE4A68500F5BC87 /* SceneDelegate.swift */,
-				8C88DF822BE4A68500F5BC87 /* ViewController.swift */,
-				8C88DF842BE4A68500F5BC87 /* Main.storyboard */,
-				8C88DF872BE4A68600F5BC87 /* Assets.xcassets */,
+				8C88DF7E2BE4A68500F5BC87 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8C88DF932BE4A7F600F5BC87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				8C88DF892BE4A68600F5BC87 /* LaunchScreen.storyboard */,
 				8C88DF8C2BE4A68600F5BC87 /* Info.plist */,
 			);
-			path = "Swift Modular Pattern";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C88DF942BE4A81100F5BC87 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				8C88DF9D2BE4A97600F5BC87 /* CatFactsCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		8C88DF952BE4A82100F5BC87 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8C88DF962BE4A83900F5BC87 /* CatFacts */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8C88DF962BE4A83900F5BC87 /* CatFacts */ = {
+			isa = PBXGroup;
+			children = (
+				8C88DF992BE4A8D500F5BC87 /* CatFactsViewController.swift */,
+				8C88DF9B2BE4A90700F5BC87 /* CatFactsViewModel.swift */,
+			);
+			path = CatFacts;
+			sourceTree = "<group>";
+		};
+		8C88DF972BE4A84E00F5BC87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C88DF982BE4A88300F5BC87 /* Font */,
+				8C88DF872BE4A68600F5BC87 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C88DF982BE4A88300F5BC87 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8C88DF9F2BE4A9B800F5BC87 /* FiraGO-Bold.ttf */,
+				8C88DFA12BE4A9C000F5BC87 /* SpaceGrotesk-Bold.ttf */,
+				8C88DFA32BE4A9C900F5BC87 /* FiraGO-Medium.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +155,10 @@
 			dependencies = (
 			);
 			name = "Swift Modular Pattern";
+			packageProductDependencies = (
+				8C88DFA62BE4AAA700F5BC87 /* CatFactsNetworking */,
+				8C88DFA92BE4AAE800F5BC87 /* TinyConstraints */,
+			);
 			productName = "Swift Modular Pattern";
 			productReference = 8C88DF7B2BE4A68500F5BC87 /* Swift Modular Pattern.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +187,10 @@
 				Base,
 			);
 			mainGroup = 8C88DF722BE4A68400F5BC87;
+			packageReferences = (
+				8C88DFA52BE4AAA700F5BC87 /* XCRemoteSwiftPackageReference "CatFactsNetworking" */,
+				8C88DFA82BE4AAE800F5BC87 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
 			productRefGroup = 8C88DF7C2BE4A68500F5BC87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C88DFA02BE4A9B800F5BC87 /* FiraGO-Bold.ttf in Resources */,
 				8C88DF882BE4A68600F5BC87 /* Assets.xcassets in Resources */,
+				8C88DFA22BE4A9C000F5BC87 /* SpaceGrotesk-Bold.ttf in Resources */,
 				8C88DF8B2BE4A68600F5BC87 /* Base in Resources */,
-				8C88DF862BE4A68500F5BC87 /* Base in Resources */,
+				8C88DFA42BE4A9C900F5BC87 /* FiraGO-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C88DF832BE4A68500F5BC87 /* ViewController.swift in Sources */,
+				8C88DF9C2BE4A90700F5BC87 /* CatFactsViewModel.swift in Sources */,
 				8C88DF7F2BE4A68500F5BC87 /* AppDelegate.swift in Sources */,
 				8C88DF812BE4A68500F5BC87 /* SceneDelegate.swift in Sources */,
+				8C88DF9E2BE4A97600F5BC87 /* CatFactsCell.swift in Sources */,
+				8C88DF9A2BE4A8D500F5BC87 /* CatFactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C88DF842BE4A68500F5BC87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C88DF852BE4A68500F5BC87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8C88DF892BE4A68600F5BC87 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +370,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FQNA3Y5XC9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Swift Modular Pattern/Info.plist";
+				INFOPLIST_FILE = "Swift Modular Pattern/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,10 +397,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FQNA3Y5XC9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Swift Modular Pattern/Info.plist";
+				INFOPLIST_FILE = "Swift Modular Pattern/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +437,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C88DFA52BE4AAA700F5BC87 /* XCRemoteSwiftPackageReference "CatFactsNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/irinkadat/CatFactsNetworking.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		8C88DFA82BE4AAE800F5BC87 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C88DFA62BE4AAA700F5BC87 /* CatFactsNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C88DFA52BE4AAA700F5BC87 /* XCRemoteSwiftPackageReference "CatFactsNetworking" */;
+			productName = CatFactsNetworking;
+		};
+		8C88DFA92BE4AAE800F5BC87 /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C88DFA82BE4AAE800F5BC87 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C88DF732BE4A68400F5BC87 /* Project object */;
 }

@@ -1,0 +1,24 @@
+{
+  "originHash" : "cb6e301575352d6ad7703cd6aa74383fa1496102b0a7846b6026d4becd36df52",
+  "pins" : [
+    {
+      "identity" : "catfactsnetworking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/irinkadat/CatFactsNetworking.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5254b388d4a76ecd0c4f895d773bcc8e5b3d778d"
+      }
+    },
+    {
+      "identity" : "tinyconstraints",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/roberthein/TinyConstraints.git",
+      "state" : {
+        "revision" : "3262e5c591d4ab6272255df2087a01bbebd138dc",
+        "version" : "4.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
