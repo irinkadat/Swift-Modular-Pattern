@@ -25,9 +25,9 @@ class CatFactsViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         configureNavTitle()
         
-        view.backgroundColor = UIColor(red: 3/255, green: 0, blue: 46/255, alpha: 1.0)
-        
-        tableView.backgroundColor = UIColor(red: 3/255, green: 0, blue: 46/255, alpha: 1.0)
+        view.backgroundColor = UIColor(red: 1.0, green: 138/255, blue: 112/255, alpha: 1.0)
+        tableView.separatorStyle = .none
+        tableView.backgroundColor = UIColor(red: 1.0, green: 138/255, blue: 112/255, alpha: 1.0)
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(CatFactsCell.self, forCellReuseIdentifier: "CatFactCell")

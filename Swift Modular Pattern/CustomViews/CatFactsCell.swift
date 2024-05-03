@@ -28,14 +28,14 @@ class CatFactsCell: UITableViewCell {
         backgroundColor = .clear
         contentView.layer.cornerRadius = 25
         contentView.layer.masksToBounds = true
-        contentView.backgroundColor = UIColor(red: 3/255, green: 0, blue: 46/255, alpha: 1.0)
+        contentView.backgroundColor = UIColor(red: 1.0, green: 138/255, blue: 112/255, alpha: 1.0)
         contentView.layer.borderColor = UIColor.white.cgColor
         contentView.layer.borderWidth = 1.0
     }
     
     private func setupTitleLabel() {
         titleLabel.textColor = .white
-        titleLabel.font = UIFont(name: "FiraGO-Medium", size: 16)
+        titleLabel.font = UIFont(name: "FiraGO-Bold", size: 16)
         titleLabel.textAlignment = .center
         titleLabel.numberOfLines = 0
         contentView.addSubview(titleLabel)
